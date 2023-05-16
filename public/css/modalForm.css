@@ -1,0 +1,190 @@
+.modal__form{
+ 
+    margin: auto;
+
+    background:  #FFFFFF80;
+    backdrop-filter: blur(5px);
+    overflow: scroll;
+  
+   
+ 
+    height:100%;
+    
+}
+.modal__form__content{
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+   
+}
+.modal__from__head{
+    
+    margin: auto;
+    margin-top: 100px;
+    
+    max-width: 800px;
+
+}
+.modal__icon{
+    max-width: 130px;
+    margin: auto;
+}
+.modal__from__head h2{
+    text-align: center;
+    font: normal normal 600 27px/40px Poppins;
+    font-family: "Poppins", sans-serif;
+letter-spacing: 0px;
+color: #363232;
+}
+.modal__from__head h4{
+    text-align: center;
+    font: normal normal normal 22px/37px Segoe UI;
+    font-family: "Segoe UI", sans-serif;
+letter-spacing: 0px;
+color: #363636;
+}
+.modal__from__head h6{
+    text-align: center;
+    font: normal normal normal 17px/30px Overpass;
+    font-family: "Overpass", sans-serif;
+margin-top: 20px;
+color: #363232;
+}
+.modal__form form{
+ 
+    margin-top: 50px;
+}
+.modal__form__row {
+
+    align-items: center;
+    margin-top: 20px;
+}
+.modal__form__row p{
+    text-align: left;
+    font: normal normal normal 17px/30px Overpass;
+    font-family: "Overpass", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+
+}
+.modal__form__row h6{
+    text-align: left;
+    font: normal normal normal 17px/30px Overpass;
+    font-family: "Overpass", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+   margin-left: 5%;
+}
+.modal__form__row input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #999494;
+    opacity: 0.8;
+ 
+    outline: none;
+    height: 39px;
+}
+@media  screen and (max-width: 800px) {
+   
+    .modal__form__content{
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 50px;
+        
+    }
+    .modal__from__head{
+       
+        margin: auto;
+        margin-top: 20px;
+        
+        max-width: 800px;
+    
+    }
+    .modal__icon{
+        max-width: 100px;
+        margin: auto;
+    }
+    .modal__from__head h2{
+        text-align: center;
+        font: normal normal 600 25px/30px Poppins;
+        font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+    }
+ 
+    .modal__from__head h6{
+        text-align: center;
+        font: normal normal normal 17px/30px Overpass;
+        font-family: "Overpass", sans-serif;
+    margin-top: 10px;
+
+    }
+    .modal__form__row {
+
+        align-items: center;
+        margin-top: 20px;
+    }
+    .modal__form__row p{
+        text-align: left;
+        font: normal normal normal 17px/30px Overpass;
+        font-family: "Overpass", sans-serif;
+      
+    
+    }
+    .modal__form__row h6{
+        text-align: left;
+        font: normal normal normal 17px/30px Overpass;
+        font-family: "Overpass", sans-serif;
+        letter-spacing: 0px;
+      
+    }
+    .modal__form__row input{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #999494;
+        opacity: 0.8;
+     
+        outline: none;
+        height: 35px;
+    }
+
+    
+}
+
+.modal__from__buttons{
+    
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: 50px;
+}
+.modal__from__buttons button{
+    margin: auto;
+   
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+font: normal normal normal 14px/33px Heebo;
+font-family: "Heebo", sans-serif;
+height: 40px;
+
+}
+
+#modal__from__close{
+    background: #FBFBFB ;
+    border: 1px solid #363232;
+    color: #3C3C3C;
+}
+#modal__from__send{
+    background: #3C3C3C ;
+border: 1px solid #363232;
+color: #FFFCFC;
+}
+#modal__from__send:hover{
+   
+    opacity: .7;
+}
+#modal__from__close:hover{
+   
+    opacity: .7;
+}

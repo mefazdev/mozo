@@ -1,0 +1,26 @@
+.renew__form__div{
+
+    height: 300px;
+    margin-top: 60px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.renew__form__div h3{
+  
+    font: normal normal bold 24px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+}
+.renew__form__div h2{
+   
+    font: normal normal normal 20px/50px Heebo;
+    font-family: "Heebo", sans-serif;
+   margin-top: 0px;
+}
+.renew__from__row{
+    border: solid green;
+   
+}
+.renew__from__row input{
+    border: green solid;
+}

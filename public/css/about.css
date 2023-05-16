@@ -1,0 +1,243 @@
+.about__header {
+  background-image: url("../images/about.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: #000000 6px solid;
+  /* height: 600px; */
+}
+
+.about__header h1 {
+  text-align: center;
+  font: normal normal bold 40px/50px Heebo;
+  letter-spacing: 0px;
+  font-family: "Heebo", sans-serif;
+  color: #ffffff;
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+
+@media screen and (min-width: 1200px) {
+  .about__content {
+    max-width: 85%;
+  }
+}
+.about__first__row h3 {
+  text-align: left;
+  font: normal normal bold 25px/35px Heebo;
+  font-family: "Heebo", sans-serif;
+
+  color: #000000;
+}
+.about__first__row p {
+  text-align: left;
+  font: normal normal normal 15px/27px Heebo;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  margin-top: 5px;
+  color: #363232;
+}
+
+.mission__row {
+  margin-top: 5px;
+}
+.mission {
+  background-image: url("../images/black-bg.png");
+  margin: auto;
+  margin-top: 10px;
+
+  min-height: 370px;
+}
+.mission__img {
+  margin: auto;
+
+  max-width: 250px;
+  margin-top: 15px;
+}
+.mission h4 {
+  text-align: center;
+  font: normal normal normal 18px/33px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.mission p {
+  text-align: center;
+  font: normal normal normal 17px/22px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #bfb7b7;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  padding-bottom: 30px;
+  max-width: 500px;
+}
+.about__third__row {
+  margin-top: 50px;
+  border-bottom: 2px solid #d3cdcd;
+}
+.about__third__row h2 {
+  text-align: center;
+  font: normal normal bold 28px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.about__third__row__img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.certificate__img {
+  max-width: 130px;
+  margin: auto;
+  justify-content: center;
+}
+
+.about__team {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.about__team h3 {
+  text-align: center;
+  font: normal normal bold 25px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.about__team__img {
+  max-width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+.about__team h6 {
+  text-align: center;
+  font: normal normal bold 14px/20px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.about__team p {
+  text-align: center;
+  font: normal normal 14px/20px Heebo;
+  letter-spacing: 0px;
+  font-family: "Heebo", sans-serif;
+  color: #8d8d8d;
+  margin-top: 5px;
+}
+@media screen and (max-width: 800px) {
+  .about__header h1 {
+    text-align: center;
+    font: normal normal bold 20px/50px Heebo;
+    font-family: "Heebo", sans-serif;
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+  .about__header h3 {
+    text-align: center;
+    font: normal normal normal 16px/10px Heebo;
+    letter-spacing: 0px;
+    font-family: "Heebo", sans-serif;
+    padding-bottom: 90px;
+  }
+  .about__content {
+    max-width: 1200px;
+    margin-top: 10px;
+  }
+  .mission__row {
+    max-width: 95%;
+    margin: auto;
+  }
+  .about__third__row h2 {
+    text-align: center;
+    font: normal normal bold 22px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+  }
+  .about__third__row__img {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  .certificate__img {
+    max-width: 120px;
+    margin: auto;
+
+    justify-content: center;
+    
+  }
+  .about__first__row h3 {
+    text-align: left;
+    font: normal normal bold 22px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+
+    
+  }
+  .about__first__row p {
+    text-align: left;
+    font: normal normal normal 14px/27px Heebo;
+    font-family: "Heebo", sans-serif;
+
+    margin-top: 10px;
+  }
+  .about__third__row {
+    margin-top: 50px;
+    border-bottom: 2px solid #707070;
+  }
+  .about__team {
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+  .about__team h3 {
+    text-align: center;
+    font: normal normal bold 22px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  .about__team__img {
+    max-width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .about__team h6 {
+    text-align: center;
+    font: normal normal bold 13px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .about__team p {
+    text-align: center;
+    font: normal normal 13px/20px Heebo;
+    letter-spacing: 0px;
+    font-family: "Heebo", sans-serif;
+    color: #8d8d8d;
+    margin-top: 5px;
+  }
+}
+
+.about__view__button button {
+  font: normal normal normal 16px/10px Overpass;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 0px;
+  color: #fff;
+  background-color: #000000;
+  border: 1px solid #707070;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.about__view__button {
+  
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+.about__view__button button:hover {
+  padding: 16px;
+}

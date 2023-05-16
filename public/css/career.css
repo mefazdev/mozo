@@ -1,0 +1,493 @@
+
+.career__header {
+  background-image: url("../images/career/career-bg.png");
+  background-position: center;
+  border-bottom: #000000 6px solid   ;
+}
+
+.career__header h1 {
+  text-align: center;
+  font: normal normal bold 40px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+padding-top: 150px;
+}
+.career__header h3 {
+  text-align: center;
+  font: normal normal normal 25px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-bottom: 90px;
+}
+.career__content {
+  
+
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width:1200px) {
+  .career__content {
+    max-width: 90%;
+ 
+  }
+}
+.career__sub__head h2 {
+
+  text-align: left;
+  font: normal normal bold 32px/30px Heebo;
+
+  font-family: "Heebo", sans-serif;
+
+}
+.career__first__row p {
+  text-align: justify;
+  font: normal normal normal 16px/30px
+   Heebo;  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #343434;
+  
+}
+.career__first__row button {
+  background: #363232 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  font: normal normal normal 14px/36px Heebo;   font-family: "Heebo", sans-serif;
+  
+  color: #ffffff;
+
+  width: 180px;
+  margin-top: 20px;
+}
+.career__first__row___img {
+  margin: auto;
+  
+}
+
+.career__second__row {
+  margin-top: 40px;
+  
+  background-color: #F4F4F4;
+ 
+}
+.career__second__row h2 {
+  text-align: center;
+  font: normal normal bold 32px/30px Heebo;
+  letter-spacing: 0px;   font-family: "Heebo", sans-serif;
+  color: #000000;
+  padding-top: 60px;
+}
+.career__icons__row {
+  
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 70px;
+
+}
+.carrer__icon {
+  max-width: 60px;
+
+  margin: auto;
+ 
+  height: 75px;
+}
+
+.career__icon__box {
+ 
+  margin-top: 30px;
+}
+.career__icon__box h4 {
+  text-align: center;
+  font: normal normal bold 13px/18px Heebo;  
+   font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #363232;
+
+  margin-top: 10px;
+}
+
+
+.career__openings{
+  /* border: solid green; */
+  /* height: 400px; */
+  width: 100%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+@media screen and (min-width:1200px) {
+  
+.career__openings{
+  max-width: 90%;
+}
+}
+
+.career__openings h2{
+  font: normal normal bold 28px/18px Heebo;  
+  font-family: "Heebo", sans-serif;
+}
+.career__openings__content{
+  margin-top: 30px;
+}
+.career__openings__content__row{
+  /* border: 1px solid rgb(195, 188, 188); */
+
+}
+#opening__accordion{
+  border: 1px solid rgb(195, 188, 188);
+  margin-top: 30px;
+  box-shadow: none;
+}
+.career__item__title{
+  /* border: green solid ; */
+  /* width: 50px; */
+}
+.career__item__title__right h2{
+  font: normal normal bold 18px/18px Heebo;  
+  font-family: "Heebo", sans-serif;
+}
+.career__item__title__right h4{
+  font: normal normal normal 14px/28px Heebo;  
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+}
+.career__item__title__right{
+  margin-left: 10px;
+}
+.career__item__no{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  color: #fff;
+}
+.career__item__no p{
+  font-size: 13px;
+}
+
+
+#career__item__description{
+  font: normal normal normal 15px/22px Heebo;  
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  max-width: 900px;
+}
+.career__item__skill{
+  margin-top: 20px;
+}
+.career__item__skill h6{
+  font: normal normal normal 16px/22px Heebo;  
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.career__item__skill p{
+  font: normal normal normal 14px/24px Heebo;  
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+}
+#career__apply__btn{
+  background-color: #000000;
+  color: #fff;
+  font: normal normal normal 13px/24px Heebo;  
+  font-family: "Heebo", sans-serif;
+  padding: 5px;
+  width: 120px;
+  margin-top: 20px;
+}
+
+
+@media screen and (min-width:1200px) {
+  .career__form__row {
+    max-width: 90%;
+  }
+}
+
+
+#career__form__modal{
+
+  background-color: rgba(255, 255, 255, 0.945);
+
+}
+.career__form__row {
+  
+height: 100vh;
+/* background-color: #ffffff5e; */
+  /* margin-top: 50px; */
+  /* margin-bottom: 40px; */
+  /* border: solid red; */
+  /* background-color: #fff; */
+  padding: 50px;
+  margin-top: 100px;
+  
+}
+.career__form__row h2 {
+ 
+  font: normal normal bold 30px/30px Heebo; 
+    font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #363232;
+margin-left: 7px;
+ 
+}
+
+
+.career__from__left {
+
+  margin-bottom: 100px;
+  
+  margin-left: 25px;
+}
+
+
+.career__from__left input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #3e3e3e;
+
+  width: 100%;
+  margin-top: 20px;
+  outline: none;
+  font: normal normal normal 14px/10px Heebo;   font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+
+  height: 45px;
+  max-width: 350px;
+  padding-left: 5px;
+}
+.career__phone__input input{
+  border: none;
+  max-width: 80%;
+  font: normal normal normal 14px/10px Heebo;   font-family: "Heebo", sans-serif;
+  margin-top: 0px;
+height: 35px;
+  
+}
+.career__phone__input{
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #3e3e3e;
+
+  width: 100%;
+  margin-top: 20px;
+  outline: none;
+ 
+
+  height: 45px;
+  max-width: 350px;
+  padding-left: 5px;
+
+}
+.custome__input__div {
+
+  width: 100%;
+  max-width: 350px;
+ 
+}
+#jop__input::-webkit-calendar-picker-indicator {
+  opacity: 1;
+  font: normal normal normal 15px/15px Poppins;   font-family: "Heebo", sans-serif;
+  background-color: #ffffff;
+  color: #3e3e3e;
+  border-radius: 50px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Upload CV";
+  display: inline-block;
+ 
+
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 10pt;
+  margin-top: 10px;
+  border: none;
+  color: #aaaaaa;
+}
+
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+#upload__icons {
+  position: absolute;
+ 
+  color: #aaaaaa;
+ 
+  margin-top: 26px;
+  margin-left: -30px;
+  z-index: 1;
+ 
+}
+.career_form input[type="file"] {
+  /* color: transparent; */
+  color: #aaaaaa;
+}
+
+.career_form button {
+  background: #3c3c3c;
+  width: 100%;
+  max-width: 350px;
+  /* margin: auto; */
+  margin-top: 20px;
+  color: #fcfcfc;
+  height: 45px;
+}
+.best__font {
+  margin: auto;
+}
+.best__font h2 {
+  
+ font-family: 'Fleur De Leah', cursive;
+  font-size: 70px;
+  font-weight: bolder;
+  transform: rotate(340deg);
+  margin: auto;
+  letter-spacing: 3px;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  
+.career__header {
+  
+  background-position: center;
+  background-size: cover;
+
+}
+
+  .career__content {
+    max-width: 90%;
+    margin-top: 30px;
+  }
+
+  .career__header h1 {
+    font: normal normal bold 26px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    padding-top: 130px;
+  }
+ 
+
+  .career__second__row h2 {
+    text-align: center;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0px;   font-family: "Heebo", sans-serif;
+    color: #000000;
+    padding-top: 50px;
+    margin-bottom: -20px;
+  }
+  .career__header h3 {
+    font: normal normal normal 15px/29px Heebo;
+    font-family: "Heebo", sans-serif;
+    padding-bottom: 60px;
+  }
+  .career__form__row h2 {
+    text-align: center;
+    font: normal normal bold 24px/30px Heebo;  
+     font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+    margin-left: 0;
+  }
+  .career__sub__head h2 {
+   
+    text-align: center;
+    font: normal normal bold 20px/30px Heebo;  
+     font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    margin-top: 10px;
+  }
+  .career__first__row p {
+    text-align: left;
+    font: normal normal normal 15px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #343434;
+    margin-top: -60px;
+  }
+ 
+  .best__font h2 {
+  
+    
+    font-family: 'Fleur De Leah', cursive;
+  }
+  .carrer__icon {
+    max-width: 30px;
+    
+    margin: auto;
+    
+    height: 25px;  
+    
+  }
+  .career__icon__box h4 {
+    text-align: center;
+    font: normal normal bold 12px/18px Heebo;   
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+  
+    margin-top: 15px;
+ 
+  }
+
+
+
+
+
+  .career__form__row {
+    max-width: 1200px;
+  
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .career__icons__row {
+   
+    padding-bottom: 40px;
+  
+  }
+  .career__from__left {
+padding: 15px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+  }
+
+}
+@media screen and (max-width: 1280px) {
+  .career__form__row h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .career__form__row h1 {
+    padding-left: 20px;
+  }
+}
+
+
+
+
+.notFound__img{
+  max-width: 300px;
+  margin: auto;
+}
+
+.notFound__img h6{
+  text-align: center;
+  font: normal normal bold 17px/18px Heebo;   
+  font-family: "Heebo", sans-serif;
+  color: #363232;
+}

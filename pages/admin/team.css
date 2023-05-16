@@ -1,0 +1,235 @@
+.admin__team{
+    /* border: green solid; */
+    width: 80%;
+    margin-left: 220px;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+.admin__team__head__row{
+    /* border: solid green; */
+    width: 100%;
+    justify-content: space-between;
+}
+.admin__team__head__row button{
+    border: solid 1px rgb(163, 161, 161);
+    border-radius: 6px;
+    font-size: 14px;
+    /* font: normal normal normal 13px/23px Poppins;
+font-family: sans-serif Poppins; */
+padding: 5px;
+width: 80px ;
+
+}
+#team__table th {
+    padding: 10px;
+}
+#team__table td {
+    padding: 10px;
+}
+#team__table th{
+    font-weight: 400;
+
+    background-color: rgb(24, 23, 23);
+    height: 45px;
+    color: #fff;
+    align-items: center;
+    text-align: left;
+    /* font: normal normal normal 15px/23px Poppins;
+    font-family: sans-serif Poppins; */
+}
+.team__row{
+    margin-top: 20px;
+    height: 40px;
+    /* font-family: sans-serif Poppins;
+    font: normal normal normal 14px/23px Poppins; */
+    font-weight: 400;
+
+}
+.team__row__gray{
+    margin-top: 20px;
+    background-color: rgb(209, 202, 202);
+ height: 40px;
+ /* font: normal normal normal 14px/23px Poppins;
+ font-family: sans-serif Poppins; */
+ font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+    .admin__team{
+        /* height: 100vh; */
+        /* border: solid yellow; */
+        /* width: 75%; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 100px;
+   }
+}
+
+
+
+.add__team{
+    max-width: 400px;
+  
+    
+    margin: auto;
+    margin-top: 50px;
+
+    background-color: #fff;
+    /* padding: 30px; */
+   
+    max-height: 90vh;
+}
+.add__team__content{
+/* border: solid green; */
+padding: 30px;
+padding-top: 20px;
+/* margin-top: 20px; */
+}
+#add__team__close{
+ float: right;   
+ margin-top: 10px;
+ margin-right: 10px;
+}
+.add__team__row {
+    margin-top: 30px;
+    
+}
+.add__team__row input , textarea{
+    border-bottom: 1px solid grey;
+    margin-left: 20px;
+    outline: none;
+
+}
+.add__team__row label{
+    /* font: normal normal normal 14px/23px Poppins;
+    font-family: sans-serif Poppins; */
+}
+.add__team__content button{
+    border: solid gray 1px;
+    /* font: normal normal normal 14px/23px Poppins;
+    font-family: sans-serif Poppins; */
+    width: 60px;
+    margin-top: 50px;
+}
+
+
+
+
+.job{
+    margin-left: 220px;
+   padding: 10px;
+    font-weight: 800;
+   
+ width: 80%;
+    margin-top: 40px;
+    /* border: solid green; */
+}
+
+.job__row {
+
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+   /* max-width: 80%; */
+   align-items: center;
+
+}
+.job__row__left input{
+    max-width: 95px;
+ font-size: 14px;
+    outline: none;
+}
+
+.job__left__filter input{
+    border-bottom: 1px solid rgb(170, 160, 160);
+    min-width: 150px;
+    padding-left: 5px;
+}
+.job__row__left p{
+
+   font-size: 14px;
+    font-weight: 500;
+    color: rgb(146, 143, 143);
+    margin-right: 10px;
+}
+.job__row__left button{
+    color: rgb(146, 143, 143);
+    border: solid rgb(204, 197, 197) 1px;
+    width: 40px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+/* .job__content{
+ 
+    border: solid red;
+} */
+
+
+
+.add__opening__row{
+    /* border: solid red; */
+    width: 90%;
+}
+.add__opening__row button{
+    border: solid 1px rgb(163, 161, 161);
+    border-radius: 6px;
+    /* font: normal normal normal 13px/23px Poppins;
+font-family: sans-serif Poppins; */
+padding: 5px;
+width: 80px ;
+float: right;
+margin-bottom: 20px;
+   }
+
+
+   #add__job__table{
+       width: 90%;
+   }
+   #add__job__table button{
+    border: solid 1px rgb(163, 161, 161);
+    border-radius: 6px;
+    /* font: normal normal normal 13px/23px Poppins;
+font-family: sans-serif Poppins; */
+padding: 5px;
+width: 80px ;
+
+margin-bottom: 20px;
+   }
+   
+   #add__job__table  td{
+    padding: 10px;
+    text-align: left;
+}
+#add__job__table th{
+    font-weight: 400;
+    padding: 10px;
+    background-color: rgb(24, 23, 23);
+    height: 45px;
+    color: #fff;
+    align-items: center;
+    text-align: left;
+    /* font: normal normal normal 15px/23px Poppins;
+    font-family: sans-serif Poppins; */
+}
+
+
+@media screen and (max-width: 800px) {
+    .job{
+        /* height: 100vh; */
+        /* border: solid yellow; */
+        /* width: 75%; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 90px;
+        overflow: scroll;
+   }
+   .add__opening__row{
+       width: 100%;
+   }
+   
+   #add__job__table{
+    width: 100%;
+}
+}

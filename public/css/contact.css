@@ -1,0 +1,260 @@
+
+.contact__header{
+    background-image: url('../images/contact-bg.png');
+
+    background-position: center;
+    border-bottom: #000000 6px solid   ;
+  
+}
+
+.contact__header h1{
+    text-align: center;
+    font: normal normal bold 40px/50px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.contact__content{
+ 
+    margin: auto;
+    margin-top: 70px;
+}
+
+@media  screen and (min-width: 1200px) {
+    .contact__content{
+       max-width: 80%;
+     
+    }
+}
+.contact__first__row h5{
+    text-align: left;
+    font: normal normal bold 22px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 2.5px;
+    color: #8D8D8D;
+    text-transform: uppercase;
+}
+.contact__first__row  h1{
+    text-align: left;
+    font: normal normal bold 31px/50px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+}
+.contact__first__row  p{
+    text-align: left;
+    font: normal normal normal 17px/25px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+    margin-top: 20px;
+
+}
+.contact__second__row{
+  margin-top: 50px;
+
+max-width: 1000px;
+margin: auto;
+}
+.contact__adress__div{
+    margin-top: 50px;
+  
+}
+.contact__adress{
+
+align-items: center;
+
+border-bottom: 1px solid #c4c4c4;
+padding-bottom: 30px;
+
+max-width: 400px;
+
+}
+.contact__adress     p{
+    font: normal normal normal 15px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+ 
+}
+.contact__adress__icons{
+    width: 60px;
+    height: 40px;
+    color: #474444 ;
+ 
+    margin-left: 10px;
+    
+}
+
+.contact__phone{
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 1px solid #c4c4c4;;
+    padding-bottom: 30px;
+    max-width: 400px;
+}
+.contact__phone p{
+    text-align: left;
+font: normal normal normal 15px/20px Heebo;
+font-family: "Heebo", sans-serif;
+letter-spacing: 0px;
+color: #363232;
+
+
+}
+.contact__mail{
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 30px;
+    max-width: 400px;
+    
+}
+.contact__mail p{
+    text-align: left;
+font: normal normal normal 15px/20px Heebo;
+font-family: "Heebo", sans-serif;
+letter-spacing: 0px;
+color: #363232;
+
+
+}
+
+.contact__social h3{
+    text-align: left;
+    font: normal normal bold 18px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+    margin-top: 50px;
+}
+.contact__social__icons{
+    margin-right: 10px;
+   margin-top: 10px;
+    color: #474444 ;
+}
+.contact__social__icons:hover{
+ color: black;
+}
+
+.contact__form__div{
+margin-top: 50px;
+max-width: 800px;
+
+
+}
+.contact__form__div h3{
+    text-align: left;
+    font: normal normal bold 20px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #363232;
+  
+}
+.contact__form__div input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #c4c4c4;
+margin-top: 10px;
+height: 50px;
+outline: none;
+padding-left: 10px;
+
+}
+.contact__phone__input input{
+border: none;
+
+height: 40px;
+margin-top: 0px;
+}
+
+.contact__phone__input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #c4c4c4;
+margin-top: 10px;
+height: 50px;
+outline: none;
+padding-left: 10px;
+}
+.contact__form__div textarea{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #c4c4c4;
+height: 100px;
+margin-top: 10px;
+outline: none;
+padding-left: 10px;
+margin-left: 0;
+}
+
+.contact__form__div  button{
+    background: #3C3C3C 0% 0% no-repeat padding-box;
+border: 1px solid #363232;
+margin-top: 10px;
+text-align: center;
+font: normal normal normal 16   px/33px Heebo;
+font-family: "Heebo", sans-serif;
+letter-spacing: 0px;
+color: #FFFCFC;
+height: 50px;
+
+}
+
+.contact__map{
+    margin-top: 100px;
+    
+}
+
+@media  screen and (max-width: 800px) {
+    .contact__header{
+       background-size: cover;
+        background-position: center;
+        border-bottom: #000000 6px solid   ;
+      
+    }
+    
+    .contact__content{
+        max-width: 90%;
+        margin-top: 30px;
+    }
+    .contact__header h1{
+      
+        font: normal normal bold 26px/30px Heebo;
+        font-family: "Heebo", sans-serif;
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+    .contact__header h3{
+       
+        font: normal normal normal 17px/20px Heebo;
+        font-family: "Heebo", sans-serif;
+        padding-bottom: 60px;
+    }   
+    .contact__first__row h5{
+        text-align: left;
+        font: normal normal bold 18px/30px Heebo;
+        letter-spacing: 1px;
+        color: #8D8D8D;
+        text-transform: uppercase;
+    }
+    .contact__first__row  h1{
+        text-align: left;
+        font: normal normal bold 25px/30px Heebo;
+        font-family: "Heebo", sans-serif;
+        letter-spacing: 0px;
+        color: #363232;
+    }
+    .contact__first__row  p{
+        text-align: left;
+        font: normal normal normal 16px/25px Heebo;
+        font-family: "Heebo", sans-serif;
+        letter-spacing: 0px;
+        color: #8D8D8D;
+    margin-top: 20px;
+    }
+    .contact__adress__div{
+       
+        margin: auto;
+    }
+}

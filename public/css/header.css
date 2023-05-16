@@ -1,0 +1,281 @@
+.header{
+    height: 60px;
+    background-color: #000000;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+.header__row{
+    max-width: 95%;
+    margin: auto;
+  
+}
+.logo{
+    max-width: 54px;
+}
+.logo__div{
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+   margin-top: 5px;
+   margin-left: 30px;
+}
+@media screen and (max-width: 800px) {
+    .header__right{
+       display: none;
+       
+        
+    }
+    .logo__div{
+        
+       
+        
+       margin-left: 0;
+    }
+}
+@media screen and (min-width: 801px) {
+    .header__right{
+       display: flex;
+      
+        
+    }
+    #social__icon{
+    display: none;
+     }
+     #expand__icon{
+       display: none;
+    }
+    .mobile__social{
+        display: none;
+    }
+    
+}
+#social__icon{
+ margin-top: 15px;
+}
+#expand__icon{
+   
+   margin-top: 15px;
+
+}
+.header__right{
+
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+ 
+}
+.active{
+
+cursor: pointer;
+
+font: normal normal bold 12px/21px Overpass;
+font-family: "Overpass", sans-serif;
+margin-right: 20px;
+text-decoration: underline;
+}
+.header__right__h5{
+    font: normal normal normal 12px/21px Overpass;
+    font-family: "Overpass", sans-serif; 
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 20px;
+ 
+    
+}
+.header__right__h5:hover{
+    text-decoration: underline;
+}
+.header__right button{
+    padding: 5px;
+    height: 33px;
+  
+    width: 100%;
+  
+    font: normal normal normal 12px/21px Overpass;
+    font-family: "Overpass", sans-serif; 
+    background: transparent linear-gradient(135deg, #E5E5E5 0%, #1A090C 100%) 0% 0% no-repeat padding-box;
+}
+
+
+
+
+.dropdown-menu{
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+    
+
+  
+
+ .collaps__head {
+
+    padding: 4px;
+    margin-left: 10px;
+  
+    color: #FFFFFF;
+    font: normal normal  14px/24px Heebo;
+    cursor: pointer;
+  
+}
+#collaps{
+    padding: 10px;
+    /* background-color: black; */
+    background-color: #03030380 ;
+    transition: ease 4000ms;
+    margin-top: -30px;
+   
+    max-width: 150px;
+}
+#collaps h5{
+    font-family: "Heebo", sans-serif;
+    font: normal normal 15px/24px Heebo;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.active_collaps{
+     color: rgb(0, 204, 255);
+    cursor: pointer;
+    padding: 4px;
+    margin-left: 10px;
+ 
+    font: normal normal  14px/24px Heebo;
+    
+} 
+ @media screen and (min-width: 801px) {
+    #collaps{
+        display: none;
+      
+    }
+   
+} 
+
+.mobile__social{
+   
+    position: relative;
+  
+}
+.mobile__social__div{
+   
+ 
+    position: absolute;
+    
+    margin-top: 20px;
+}
+
+.service__group__span{
+    align-items: center;
+    justify-content: space-between;
+}
+#service__group__arrow{
+    margin-right: 5px;
+}
+
+.development__list{
+    
+    display: none;
+    position: absolute;
+   
+    float: right;
+    margin-left: 200px;
+    margin-top: -37px;
+    flex-direction: column;
+}
+.development__list > li{
+    width: 180px;
+   
+   
+}
+.development__head:hover .development__list  {
+display: flex;
+}
+
+.design__list{
+    display: none;
+    position: absolute;
+   
+    float: right;
+    
+    margin-top: -40px;
+    margin-left: 200px;
+    flex-direction: column;
+}
+.design__list > li{
+    width: 180px;
+   
+   
+}
+.design__head:hover .design__list{
+display: flex;
+}
+
+.marketing__list{
+    display: none;
+    position: absolute;
+   
+    float: right;
+    margin-left: 200px;
+    margin-top: -40px;
+    flex-direction: column;
+}
+.marketing__list > li{
+    width: 180px;
+   
+   
+}
+.marketing__head:hover .marketing__list{
+display: flex;
+}
+
+
+
+.hosting__list{
+    display: none;
+    position: absolute;
+   
+    float: right;
+    margin-left: 200px;
+    margin-top: -40px;
+    flex-direction: column;
+}
+.hosting__list > li{
+    width: 180px;
+   
+   
+}
+.hosting__head:hover .hosting__list{
+display: flex;
+}
+
+
+.expert__list{
+    display: none;
+    position: absolute;
+   
+    float: right;
+    margin-left: 200px;
+    margin-top: -40px;
+    flex-direction: column;
+}
+.expert__list > li{
+    width: 180px;
+   
+   
+}
+.expert__head:hover .expert__list{
+display: flex;
+}

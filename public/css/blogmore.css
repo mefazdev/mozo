@@ -1,0 +1,104 @@
+.blogMore__content {
+  
+  margin-top: 50px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid rgb(218, 217, 217);
+}
+@media screen and (min-width: 1200px) {
+  .blogMore__content {
+    max-width: 85%;
+  
+    
+  }
+}
+.blogMore__content h2 {
+  text-align: center;
+  font: normal normal bold 30px/40px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  max-width: 600px;
+  margin: auto;
+}
+.blogMore__content h6 {
+  
+  font: normal normal normal 17px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #8d8d8d;
+}
+.blogMore__img {
+  margin-top: 60px;
+}
+.blogMore__content p {
+  text-align: justify;
+  font: normal normal normal 17px/33px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #343434;
+  margin: auto;
+  margin-top: 60px;
+
+  max-width: 90%;
+}
+
+.similar__post {
+  max-width: 1000px;
+
+  margin-top: 70px;
+ 
+  margin-bottom: 100px;
+}
+.similar__post h6 {
+  text-align: left;
+  font: normal normal normal 18px/20px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #343434;
+}
+@media screen and (max-width: 800px) {
+  .blogMore__content h2 {
+    text-align: center;
+    font: normal normal bold 20px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .similar__post {
+    max-width: 1000px;
+  
+    margin-top: 20px;
+  
+    margin-bottom: 70px;
+  }
+  .blogMore__content h6 {
+    text-align: center;
+    font: normal normal normal 15px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #8d8d8d;
+  }
+  .blogMore__content {
+    max-width: 1200px;
+   
+    margin-top: 30px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid rgb(218, 217, 217);
+    padding-bottom: 20px;
+  }
+  .blogMore__content p {
+    text-align: left;
+    font: normal normal normal 15px/33px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #343434;
+    margin: auto;
+    margin-top: 60px;
+  
+    max-width: 90%;
+  }
+}

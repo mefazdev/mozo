@@ -1,0 +1,357 @@
+.portfolio__header {
+  background-image: url("../images/portfolio/portfolio-bg.png");
+  background-position: center;
+  border-bottom: #000000 6px solid;
+}
+.portfolio__header h1 {
+  text-align: center;
+  font: normal normal bold 40px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+.portfolio__header h3 {
+  text-align: center;
+  font: normal normal normal 25px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+ 
+}
+.portfolio__content {
+  max-width: 1200px;
+
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.portfolio__row__one h2 {
+  text-align: center;
+  font: normal normal bold 35px/30px Heebo;
+  letter-spacing: 0px;
+  font-family: "Heebo", sans-serif;
+  color: #000000;
+}
+.portfolio__row__one p {
+  /* text-align: center; */
+  margin: auto;
+  font: normal normal normal 18px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #363232;
+  margin-top: 10px;
+  max-width: 90%;
+  
+}
+.portfolio__row {
+  margin-top: 50px;
+    
+}
+.port__frame {
+  background-image: url("../images/portfolio/frame.png");
+  background-attachment: local;
+
+  max-width: 239px;
+  background-size: contain;
+  height: 270px;
+  width: 300px;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+ 
+  position: relative;
+}
+.portfolio__img__div {
+  display: block;
+
+  height: 111px;
+  overflow: hidden;
+  position: relative;
+
+  border-radius: 1px;
+  margin-top: 15px;
+}
+.portfolio__img {
+  margin-left: 19px;
+  bottom: -251px;
+  width: 315px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+
+
+  animation-name: portfolioOne;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes portfolioOne {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -251px;
+  }
+}
+
+
+
+
+.portfolio__img__two {
+  margin-left: 20px;
+  bottom: -250px;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+
+ 
+  animation-name: portfolioTwo;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+@keyframes portfolioTwo {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -250px;
+  }
+}
+
+
+.portfolio__img__three {
+  margin-left: 21px;
+  bottom: -250px;
+  width: 212px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+
+  
+  animation-name: portfolioThree;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+@keyframes portfolioThree {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -250px;
+  }
+}
+
+
+.portfolio__img__four {
+  margin-left: 21px;
+  bottom: -134px;
+  width: 208px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  animation-name: portfolioFour;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolioFour{
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -130px;
+  }
+}
+
+
+.portfolio__img__five {
+  margin-left: 21px;
+  bottom: -515px;
+  width: 195px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+
+  animation-name: portfolioFive;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolioFive{
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -515px;
+  }
+}
+
+
+.portfolio__img__six {
+  margin-left: 21px;
+  bottom: -240px;
+  width: 195px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+
+  animation-name: portfolioSix;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolioSix{
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -240px;
+  }
+}
+
+
+.portfolio__img__seven {
+  margin-left: 21px;
+  bottom: -250px;
+  width: 195px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+
+
+  animation-name: portfolioSeven;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolioSeven{
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -250px;
+  }
+}
+
+.portfolio__img__eight {
+  margin-left: 21px;
+  bottom: -249px;
+  width: 195px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  animation-name: portfolioEight;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolioEight{
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -250px;
+  }
+}
+
+.portfolio__img__nine {
+  margin-left: 21px;
+  bottom: -250px;
+  width: 195px;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  animation-name: portfolioNine;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes portfolioNine{
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -250px;
+  }
+}
+
+
+.portfolio__img__extra {
+  width: 212px;
+  margin-left: 23px;
+  margin-top: 2px;
+}
+.portfolio__box {
+  justify-content: center;
+  border-bottom: 1px solid #c4c4c4;
+
+  max-height: 250px;
+}
+@keyframes portfolioOne {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -251px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .portfolio__header {
+    
+    background-position: initial;
+    background-size: cover;
+   
+
+  }
+  .portfolio__content {
+    max-width: 90%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .portfolio__header h1 {
+    font: normal normal bold 26px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    padding-top: 130px;
+    padding-bottom: 60px;
+  }
+  .portfolio__header h3 {
+    font: normal normal normal 17px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+    padding-bottom: 60px;
+  }
+  .portfolio__row__one h2 {
+    font: normal normal bold 25px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 0px;
+    
+  }
+  .portfolio__row__one p {
+    text-align: justify;
+    font: normal normal normal 15px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  .portfolio__row {
+    margin-top: 0px;
+    
+  }
+  .port__frame {
+   
+    margin-top: 30px;
+  
+    
+  }
+  .portfolio__box {
+    justify-content: center;
+    border-bottom: none;
+  
+    max-height: 300px;
+
+    max-height: 220px;
+  }
+}

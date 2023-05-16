@@ -1,0 +1,111 @@
+.settings{
+    height: 100vh;
+     /* border: solid yellow; */
+     /* width: 75%; */
+     width: 100%;
+     /* margin: auto; */
+     margin-left: 250px;
+ 
+}
+.settings h1{
+    font-weight: 700;
+    margin-top: 45px;
+}
+.settings__content{
+    margin-top: 30px;
+}
+#settings__table img{
+ max-width: 100px;
+ max-height: 50px;
+ 
+}
+.settings__left h3{
+    /* font: normal normal normal 18px/23px Poppins;
+font-family: sans-serif Poppins; */
+}
+.settings__left button{
+/* font: normal normal normal 15px/23px Poppins;
+font-family: sans-serif Poppins; */
+color: rgb(77, 72, 72);
+border-radius: 6px;
+border: solid gray 1px;
+width: 100px;
+padding: 2px;
+/* font: normal normal normal 15px/23px Poppins;
+font-family: sans-serif Poppins; */
+}
+.settings__left table{
+    width: 100%;
+    margin-top: 10px;
+}
+.settings__left table th{
+    background-color: rgb(24, 23, 23);
+    color: #fff;
+    height: 40px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px;
+    /* font: normal normal normal 15px/23px Poppins;
+    font-family: sans-serif Poppins; */
+}
+.settings__left table td{
+    padding: 10px;
+    /* font: normal normal normal 15px/23px Poppins;
+    font-family: sans-serif Poppins; */
+}
+.client__table__row {
+    height: 40px;
+    font-weight: 400;
+    text-align: left;
+}
+.client__table__row__gray {
+    height: 40px;
+    font-weight: 400;
+    text-align: left;
+    background-color: rgb(209, 202, 202);
+}
+
+@media screen and (max-width: 800px) {
+    .settings{
+        /* height: 100vh; */
+        /* border: solid yellow; */
+        /* width: 75%; */
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+        padding: 10px;
+   }
+   .settings__content{
+    margin-top: 10px;
+}
+}
+
+.settings__modal{
+    margin: auto;
+    background-color: #fff;
+    max-width: 400px;
+    height: 260px;
+    padding:30px;
+    margin-top: 100px;
+}
+.settings__modal select{
+    border-bottom: solid 1px;
+    width: 80%;
+    margin-top: 20px;
+    outline: none;
+}
+
+.settings__modal input{
+    border-bottom: 1px solid;
+    margin-left: 5px;
+    outline: none;
+}
+.settings__modal button{
+    border: 1px solid;
+    margin-left: 5px;
+    padding: 2px;
+    width: 80px;
+    margin-top: 20px;
+  
+
+}

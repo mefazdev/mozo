@@ -1,0 +1,247 @@
+.home__banner__slider {
+  margin-top: -130px;
+}
+.home__banner__lap {
+  max-width: 450px;
+  
+  height: 300px;
+
+  background-image: url("../images/lap-frame.png");
+  background-attachment: local;
+
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+.home__banner__lap__in {
+ 
+  height: 220px;
+
+  overflow: hidden;
+  position: relative;
+  margin-top: 30px;
+}
+#olive {
+  object-fit: cover;
+}
+.olive__img {
+  max-width: 350px;
+
+  margin-top: 30px;
+  margin-left: 50px;
+  bottom: -736px;
+
+  overflow-x: hidden;
+  position: absolute;
+
+  z-index: 0;
+  animation-name: banner-one;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes banner-one {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -736px;
+  }
+}
+@keyframes banner-one-mobile {
+    50% {
+      bottom: 0;
+    }
+    100% {
+        bottom: -485px;
+    }
+  }
+.slider__img__two {
+  max-width: 350px;
+  margin-top: 30px;
+  margin-left: 50px;
+  bottom: -630px;
+
+  overflow-x: hidden;
+  position: absolute;
+
+  z-index: 0;
+  animation-name: banner-two;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes banner-two {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -630px;
+  }
+}
+@keyframes banner-two-mobile {
+    50% {
+      bottom: 0;
+    }
+    100% {
+        bottom: -408px;
+    }
+  }
+.slider__img__three {
+  max-width: 350px;
+
+  margin-top: 30px;
+  margin-left: 50px;
+  bottom: -870px;
+
+  overflow-x: hidden;
+  position: absolute;
+
+  z-index: 0;
+  animation-name: banner-three;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes banner-three {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -870px;
+  }
+}
+@keyframes banner-three-mobile {
+    50% {
+      bottom: 0;
+    }
+    100% {
+        bottom: -590px;
+    }
+  }
+.slider__img__four {
+  max-width: 350px;
+
+  margin-top: 30px;
+  margin-left: 50px;
+  bottom: -410px;
+
+  overflow-x: hidden;
+  position: absolute;
+
+  z-index: 0;
+  animation-name: banner-four;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes banner-four {
+  50% {
+    bottom: 0;
+  }
+  100% {
+    bottom: -410px;
+  }
+}
+@keyframes banner-four-mobile {
+    50% {
+      bottom: 0;
+    }
+    100% {
+        bottom: -260px;
+    }
+  }
+.slider__img__five {
+    max-width: 350px;
+    
+    margin-top: 30px;
+    margin-left: 50px;
+    bottom: -405px;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: 0;
+    animation-name: banner-five;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes banner-five {
+    50% {
+      bottom: 0;
+    }
+    100% {
+        bottom: -405px;
+    }
+  }
+  @keyframes banner-five-mobile {
+    50% {
+      bottom: 0;
+    }
+    100% {
+        bottom: -262px;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+  .olive__img {
+  
+    width: 232px;
+    margin-top: 30px;
+    margin-left: 34px;
+    bottom: -485px;
+    animation-name: banner-one-mobile;
+  
+  }
+  .slider__img__two {
+    width: 232px;
+    margin-top: 30px;
+    margin-left: 34px;
+    bottom: -408px;
+    animation-name: banner-two-mobile;
+  }
+  .slider__img__three {
+    width: 232px;
+    margin-top: 30px;
+    margin-left: 34px;
+    bottom: -590px;
+    animation-name: banner-three-mobile;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+  .slider__img__four {
+    width: 232px;
+    margin-top: 30px;
+    margin-left: 34px;
+    bottom: -260px;
+    animation-name: banner-four-mobile ;
+  }
+  .slider__img__five {
+    width: 232px;
+    margin-top: 30px;
+    margin-left: 34px;
+    bottom: -262px;
+    animation-name: banner-five-mobile;
+  }
+  .home__banner__lap {
+ 
+    width: 300px;
+    margin: auto;
+
+    
+  }
+  .home__banner__slider {
+    margin-top: -140px;
+  }
+  .home__banner__lap__in {
+  
+    height: 150px;
+
+    overflow: hidden;
+    position: relative;
+    margin-top: 72px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .home__banner__lap {
+    margin-left: 60px;
+  }
+}

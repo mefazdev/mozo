@@ -1,0 +1,414 @@
+
+.service__header {
+  background-image: url("../images/service/web-bg.png");
+  background-position: center;
+  border-bottom: #000000 6px solid   ;
+  min-height: 350px;
+ 
+}
+
+.service__header h1 {
+  text-align: center;
+  font: normal normal bold 40px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-top: 150px;
+  
+}
+.service__header h4 {
+  text-align: center;
+  font: normal normal normal 23px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-bottom: 90px;
+}
+.service__content {
+  max-width: 1200px;
+
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.service__first__row h2 {
+  text-align: left;
+  font: normal normal normal 30px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.service__first__row p {
+  text-align: justify;
+  font: normal normal normal 17px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #343434;
+  
+}
+
+.service__first__row__img {
+ 
+  margin: auto;
+ 
+}
+
+.service__second__row h2 {
+  text-align: left;
+  font: normal normal normal 30px/40px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.service__second__row p {
+  text-align: justify;
+  font: normal normal normal 17px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #343434;
+}
+
+.service__form {
+ 
+  margin-top: 30px;
+ 
+
+  
+}
+
+.service__form h2 {
+  text-align: left;
+  font: normal normal bold 20px/65px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 2.5px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.service__form input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #3e3e3e;
+  height: 45px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+/* <<<<<<<<<<<<<>>>>>>>>>>>>>>>>>> */
+.service__form_phone__input{
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #3e3e3e;
+  height: 45px;
+  margin-top: 20px;
+  width: 100%;
+}
+.service__form_phone__input input {
+  border: none;
+margin-top: 0px;
+max-height: 40px;
+outline: none;
+
+}
+/* .phone__input input{
+  border: none;
+  height: initial;
+  margin-top: 0px;
+  padding-left: 5px;
+} */
+
+.service__form__select{
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #3e3e3e;
+}
+.service__form__select p{
+ 
+  color: #8b8a8a;
+}
+.service__form button {
+  text-align: center;
+  font: normal normal 600 15px/30px Noto Sans;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 0px;
+  color: #fcfcfc;
+  background-color: #3c3c3c;
+  width: 100%;
+  margin-top: 20px;
+  height: 45px;
+}
+.service__third__row {
+  margin-top: 30px;
+}
+.service__third__row h2 {
+  text-align: left;
+  font: normal normal normal 30px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.service__third__row p {
+  text-align: justify;
+  font: normal normal normal 17px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #343434;
+}
+.service__third__row__img {
+  max-width: 400px;
+
+  margin: auto;
+
+  
+}
+.service__forth__row {
+  margin: auto;
+  margin-top: 30px;
+}
+.service__forth__row h2 {
+  text-align: left;
+  font: normal normal normal 30px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.service__forth__row p {
+  text-align: justify;
+  font: normal normal normal 17px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #343434;
+}
+
+@media screen and (min-width: 1000px) {
+  .service__form {
+    margin-top: 30px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+  .service__header {
+ 
+    background-position: center;
+    border-bottom: #000000 6px solid   ;
+    min-height: inherit;
+   
+  }
+  .service__content {
+    max-width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+  .service__form input {
+  
+    height: 45px;
+   width: 100%;
+  }
+  .service__form button {
+    
+    width: 100%;
+    margin-top: 20px;
+    height: 45px;
+  }
+  .service__header h1 {
+    font: normal normal bold 19px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+   padding-top: 130px;
+  }
+  .service__header h4 {
+    font: normal normal normal 17px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+    padding-bottom: 70px;
+  }
+  .service__third__row h2 {
+    text-align: left;
+    font: normal normal normal 21px/26px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 20px;
+  }
+  .service__third__row p {
+    text-align: justify;
+    font: normal normal normal 15px/26px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+  }
+  .service__second__row h2 {
+    text-align: left;
+    font: normal normal normal 21px/26px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 20px;
+  }
+  .service__second__row p {
+    text-align: left;
+    font: normal normal normal 15px/26px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+  }
+  .service__first__row h2 {
+    text-align: left;
+    font: normal normal normal 21px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 20px;
+  }
+  .service__first__row p {
+    text-align: left;
+    font: normal normal normal 15px/24px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+  }
+  .service__forth__row h2 {
+    text-align: left;
+    font: normal normal normal 21px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 20px;
+  }
+  .service__forth__row p {
+    text-align: left;
+    font: normal normal normal 15px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+    margin-top: 10px;
+  }
+  .service__header {
+    background-image: url("../images/service/web-bg.png");
+   
+    border-bottom: solid 6px black;
+  }
+
+}
+
+.proposal {
+  background: #363232;
+ 
+}
+.proposal__continer {
+  max-width: 1200px;
+  padding-bottom: 100px;
+}
+.proposal__continer h2 {
+  text-align: center;
+  font: normal normal bold 25px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-top: 60px;
+}
+.proposal__continer form {
+  margin: auto;
+  margin-top: 40px;
+
+  max-width: 1050px;
+}
+.proposal__continer h5 {
+  text-align: left;
+  font: normal normal normal 16px/40px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.proposal__continer span p {
+  text-align: left;
+  font: normal normal normal 16px/40px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 20px;
+}
+.proposal__continer span input {
+  font: normal normal normal 15px/50px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #363232;
+  border-bottom: 1px solid #ffffff;
+  height: 30px;
+  outline: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.proposal__continer button {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 3px;
+  font: normal normal normal 18px/30px Heebo;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0px;
+  color: #363232;
+  width: 150px;
+  height: 35px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 30px; */
+}
+
+@media screen and (max-width: 800px) {
+  .proposal {
+    background: #363232;
+    
+  }
+  .proposal__continer {
+    max-width: 1200px;
+    padding-bottom: 50px;
+  }
+  .proposal__continer h2 {
+    text-align: center;
+    font: normal normal bold 20px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+   
+    padding-top: 40px;
+  }
+  .proposal__continer form {
+    margin: auto;
+    margin-top: 20px;
+  max-width: 1050px;
+  }
+  .proposal__continer h5 {
+    text-align: left;
+    font: normal normal normal 15px/20px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    padding-left: 20px;
+  }
+  
+  .proposal__continer span p {
+    text-align: left;
+    font: normal normal normal 14px/40px Heebo;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0px;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .proposal__continer span input {
+    font: normal normal normal 14px/50px Heebo;
+    font-family: "Heebo", sans-serif;
+    
+   
+   
+    height: 30px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+ 
+  }
+  .proposal__continer button {
+
+  
+  
+    font: normal normal normal 16px/30px Heebo;
+    font-family: "Heebo", sans-serif;
+
+  
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
