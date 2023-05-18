@@ -197,7 +197,7 @@ export default function ServiceForm() {
                value={phone}
                onChange={setPhone}
                required
-               defaultCountry='IN'
+               defaultCountry='AE'
                />
               </div>
 

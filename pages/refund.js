@@ -21,7 +21,7 @@ export default function ReFund() {
           <div className="terms__row flex">
             <AlbumIcon className="terms__icons" />
             <p>
-              The terms hereof shall constitute the ‘Cleverkings Pvt. Ltd.’
+              The terms hereof shall constitute the ‘Mozo Tech’
               company cancellation and refund policy concerning the solutions
               rendered on the website.
             </p>
@@ -123,7 +123,7 @@ export default function ReFund() {
           <div className="terms__row flex">
             <AlbumIcon className="terms__icons" />
             <p>
-              Cleverkings Pvt. Ltd. is not liable to pay a refund if delay or
+            Mozo Tech is not liable to pay a refund if delay or
               service disruption happens due to third party involvement.
             </p>
           </div>

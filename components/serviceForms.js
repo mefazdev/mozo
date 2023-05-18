@@ -259,7 +259,7 @@ export function CommenQuote() {
                value={phone}
                onChange={setPhone}
                required
-               defaultCountry='IN'
+               defaultCountry='AE'
                />
               </div>
               
@@ -427,7 +427,7 @@ export function WebQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -597,7 +597,7 @@ export function AppQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -757,7 +757,7 @@ export function SoftwareQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -1074,7 +1074,7 @@ export function DigitalQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -1231,7 +1231,7 @@ export function BrandingQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -1391,7 +1391,7 @@ export function SeoQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                /> 
               </div>
               
@@ -1549,7 +1549,7 @@ export function SmmQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -1708,7 +1708,7 @@ export function SmsQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -1866,7 +1866,7 @@ export function EmailQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -2024,7 +2024,7 @@ export function InfluencerQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -2182,7 +2182,7 @@ export function DomainQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -2340,7 +2340,7 @@ export function HostingQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -2499,7 +2499,7 @@ export function AnimationQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -2657,7 +2657,7 @@ export function AiQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -2815,7 +2815,7 @@ export function GameQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -2971,7 +2971,7 @@ export function CloudQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -3130,7 +3130,7 @@ export function RoboticsQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                /> 
               </div>
               
@@ -3288,7 +3288,7 @@ export function ResearchQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                />
               </div>
               
@@ -3446,7 +3446,7 @@ export function GraphicQuote() {
                placeholder="Phone"
                value={phone}
                onChange={setPhone}
-               required  defaultCountry='IN'
+               required  defaultCountry='AE'
                /> 
               </div>
               

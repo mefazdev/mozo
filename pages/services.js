@@ -256,7 +256,7 @@ export default function Services() {
               <div className="col-span-2">
                 <h2>DIGITAL MARKETING</h2>
                 <p>
-                  CMozo Tech is an extension in assisting you in development by
+                  Mozo Tech is an extension in assisting you in development by
                   the means of Digital marketing that is advertising through
                   digital channels. The Main Digital marketing services we look
                   forward to are, Search Engine Optimization (SEO), Social Media

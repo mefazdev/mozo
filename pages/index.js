@@ -128,7 +128,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Website Designing | Mobile app development Kerala, India</title>
+        <title>Website Designing | Mobile app development Dubai UAE</title>
         <meta
           name="description"
           content="Best Website Designing and Mobile app development companies in Calicut Kerala, Bangalore | Web development, Offers comprehensive web development solutions India."
@@ -378,18 +378,18 @@ export default function Home() {
                   </span>
                 </p>
 
-                <div className="home__awards">
+                {/* <div className="home__awards">
                   <div className="home__awards__head">
                     <h3>Awards & Recognition</h3>
-                    {/* <h6>
+                    <h6>
                       <span className="pr-2">CLEVERKINGS PVT. LTD, </span>
                       <span>AN ISO 9001:2015 CERTIFIED COMPANY</span>
-                    </h6> */}
+                    </h6>
                   </div>
                   <div className="home__awards__content">
                     <AwardSlider />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -469,7 +469,7 @@ export default function Home() {
                       <h2>
                         <CountUp
                           start={0}
-                          end={didViewCountUp ? 5 : 0}
+                          end={didViewCountUp ? 1 : 0}
                           duration={2}
                         />
                         +
@@ -494,7 +494,7 @@ export default function Home() {
                       <h2>
                         <CountUp
                           start={0}
-                          end={didViewCountUp ? 500 : 0}
+                          end={didViewCountUp ? 100 : 0}
                           duration={5}
                         />
                         +
@@ -521,7 +521,7 @@ export default function Home() {
                       <h2>
                         <CountUp
                           start={0}
-                          end={didViewCountUp ? 600 : 0}
+                          end={didViewCountUp ? 150 : 0}
                           duration={5}
                         />
                       </h2>

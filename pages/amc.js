@@ -31,12 +31,12 @@ export default function Amc() {
           of remote support and additional instances on which the support is
           available. Your business growth is empowered by our assurance on your
           requirements specified on the specially customised annual maintenance
-          contract. Cleverkings Pvt. Ltd. will always continue to suggest the
+          contract. Mozo Tech will always continue to suggest the
           best and specific options also time-to-time optimization and
           up-gradation, that will suit your business. You can leave your
           maintenance concern completely on us and focus on the revenue aspects
           of your business. Software assets are well maintained and delivered by
-          the experts here. Cleverkings Pvt. Ltd. is a full-service IT provider
+          the experts here. Mozo Tech is a full-service IT provider
           who flexibly manages your server, storage, network and facility. We
           explicitly include the terms to meet the requirements and objectives
           of the client's fast-growing needs. Our aim is to achieve an

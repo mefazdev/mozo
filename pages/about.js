@@ -24,8 +24,8 @@ export default function About() {
  
   return ( 
     <> <Head>
-    <title>Blog </title>
-    <meta property="og:title" content="Blog" key="title" />
+    <title>About | Mozo Tech</title>
+    <meta property="og:title" content="Mozo Tech" key="title" />
     
   </Head>
      <Pixel name='FACEBOOK_PIXEL_1' />
@@ -109,57 +109,28 @@ export default function About() {
           <h3>Meet Our Leadership</h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+         
+          <div>
+              <div className="about__team__img">
+                <Image src={teamimage6} />
+              </div>
+
+              <h6>MOUZA GAREEB SALEM HASHEL AL-QAYDI</h6>
+              <p>Founder & CEO</p>
+            
+            </div>
             <div>
               <div className="about__team__img">
                 <Image src={teamimage1} />
               </div>
 
               <h6>SHAFHAN KALATHIL</h6>
-              <p>Founder, CMD & CEO</p>
+              <p>Chief Operating Officer</p>
             </div>
-            <div>
-              <div className="about__team__img">
-                <Image src={teamimage2} />
-              </div>
-
-              <h6>LABEEB KULANGARA KANDI</h6>
-              <p>Managing Director</p>
-            </div>
-            <div>
-              <div className="about__team__img">
-                <Image src={teamimage3} />
-              </div>
-              <h6>ALI SAEED SAIF ABOOD AL-KAABI</h6>
-
-              <p>Investor & Sponsor</p>
-            </div>
+            
+            
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3">
-            <div>
-              <div className="about__team__img">
-                <Image src={teamimage4} />
-              </div>
-
-              <h6>HUMOOD SAEED SAIF ABOOD AL-KAABI</h6>
-              <p>Partner</p>
-            </div>
-            <div>
-              <div className="about__team__img">
-                <Image src={teamimage5} />
-              </div>
-
-              <h6>NAJLA SAEED SAIF ABOOD AL-KAABI</h6>
-              <p>Business Head</p>
-            </div>
-            <div>
-              <div className="about__team__img">
-                <Image src={teamimage6} />
-              </div>
-
-              <h6>MOUZA GAREEB SALEM HASHEL AL-QAYDI</h6>
-              <p>Business Advisor</p>
-            </div>
-          </div>
+          
         </div>
         <div className="about__view__button">
           <Link href="/directorProfile">

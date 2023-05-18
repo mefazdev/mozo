@@ -42,7 +42,7 @@ export default function directorProfile() {
                 My team is my strength and your dream weaver.. The courage they
                 take rules the business, doing work worth.
               </h2>
-              <h3 style={{ textAlign: "right" }}>Shafhan Kalathil, CEO</h3>
+              <h3 style={{ textAlign: "right" }}>MOUZA AL-QAYDI, CEO</h3>
             </div>
           </div>
 

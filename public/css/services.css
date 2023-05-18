@@ -91,10 +91,10 @@ h3 {
   margin-top: 20px;
 }
 .service__box p {
-  text-align: left;
+  /* text-align: left; */
   font: normal normal normal 14px/23px Heebo;
   font-family: "Heebo", sans-serif;
-  letter-spacing: 0px;
+  /* letter-spacing: 0px; */
   color: #343434;
   opacity: 1;
   padding-right: 15px;
@@ -129,7 +129,7 @@ h3 {
     padding-left: 5px;
   }
   .service__box p {
-    text-align: left;
+    /* text-align: left; */
     font: normal normal normal 14px/22px Heebo;
 
     font-family: "Heebo", sans-serif;
@@ -137,6 +137,7 @@ h3 {
     padding-left: 5px;
     margin-top: 5px;
     margin-bottom: 10px;
+    /* border: solid red; */
   }
   .service__box__left button {
     margin-left: 10px;

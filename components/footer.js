@@ -22,10 +22,10 @@ export default function Footer() {
             <div className="flex">
               <BusinessIcon id="footer__icon" />
               <div className="pl-2">
-                <h5>MOZOTECH PVT LTD</h5>
+                <h5>MOZO TECH PVT LTD</h5>
                 <h6>
                 
-                  Dubai, <br /> Unaited Arab Emirates
+                  Dubai<br /> United Arab Emirates
                   
                 </h6>
                 {/* <h5>CIN : U72900KL2016PTC047206</h5> */}

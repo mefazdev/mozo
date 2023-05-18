@@ -22,7 +22,7 @@ export default function Disclaimer() {
           <div className="terms__row flex">
             <AlbumIcon className="terms__icons" />
             <p>
-              Cleverkings Pvt. Ltd. is an ISO:9001-2015 certified company
+            Mozo Tech is a  company
               providing all sought of IT services including development,
               marketing, Hosting, consultancy and the least real-world machine
               applications. We render our services to Startups, SMEs, Corporates
@@ -46,7 +46,7 @@ export default function Disclaimer() {
               is mentioned and delivered the best from us in any case, but
               without any warranty or guarantee. Our site may also contain many
               links for many purposes and some may include third parties also.
-              Cleverkings Pvt. Ltd. Management or the investors won't be
+              Mozo Tech Management or the investors won't be
               responsible for any illegal content on the sites of the links
               provided.
             </p>
@@ -86,7 +86,7 @@ export default function Disclaimer() {
               Any illegal and non-logical contents posted on the forums are not
               allowed; and also not to upload, distribute or transmit, abusive
               or threatening ones, that infringes the intellectual property of
-              any person violating the copyrights. Cleverkings Pvt. Ltd. will
+              any person violating the copyrights. Mozo Tech will
               not be responsible for such messages and reserves the right to
               delete or move the same.
             </p>
@@ -103,7 +103,7 @@ export default function Disclaimer() {
             <AlbumIcon className="terms__icons" />
             <p>
               If you have any queries related to the disclaimer content, you can
-              email us to support@cleverkings.com
+              email us to info@mozotech.ae
             </p>
           </div>
         </div>
