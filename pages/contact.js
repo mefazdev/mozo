@@ -104,7 +104,7 @@ export default function Contact() {
               </div>
               <div className="flex contact__phone">
                 <HiPhone className="contact__adress__icons" />
-                <p>+97 154 542 3683</p>
+                <p>00971545423683 </p>
               </div>
               <div className="flex contact__mail">
                 <HiAtSymbol className="contact__adress__icons" />

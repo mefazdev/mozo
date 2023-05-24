@@ -4,15 +4,10 @@ import Footer from "../components/footer";
 import cowork from "../public/images/cowork.png";
 import mission from "../public/images/partnership.png";
 import vision from "../public/images/solidarity.png";
-import abc from "../public/images/home/award-4.png";
-import jas from "../public/images/home/award-1.png";
-import iaf from "../public/images/home/award-2.png";
-import jaz from "../public/images/home/award-3.jpg";
-import teamimage1 from "../public/images/shafhan.png";
-import teamimage2 from "../public/images/labeeb.png";
-import teamimage3 from "../public/images/team-member-5.png";
-import teamimage4 from "../public/images/team-member-7.png";
-import teamimage5 from "../public/images/najila.png";
+ 
+import teamimage1 from "../public/images/shaf-1.jpeg";
+// import teamimage1 from "../public/images/shafhan.png";
+ 
 import teamimage6 from "../public/images/mouz.png";
 import Link from "next/link";
 import Head from 'next/head'
@@ -85,7 +80,7 @@ export default function About() {
 
         {/*<<<<<<<<<<<<<<<<<< CERTIFICATE SECTION >>>>>>>>>>>>>>>>>>>> */}
 
-        <div className="about__third__row">
+        {/* <div className="about__third__row">
           <h2>Certificates & Recogonitions</h2>
 
           <div className="grid grid-cols-2 lg:grid-cols-4 about__third__row__img">
@@ -102,7 +97,7 @@ export default function About() {
               <Image src={jaz} />
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/*<<<<<<<<<<<<<<<<<<<<<<<< TEAM >>>>>>>>>>>>>>>>>>>>>>*/}
         <div className="about__team">

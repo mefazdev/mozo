@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import blackLogo from "../public/images/black-logo.png";
+import blackLogo from "../public/images/home/mozlogo2.png";
 import director from "../public/images/director.png";
 import comma from "../public/images/home/coma.png";
 import Image from "next/image";

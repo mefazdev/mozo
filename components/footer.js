@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="flex">
               <BusinessIcon id="footer__icon" />
               <div className="pl-2">
-                <h5>MOZO TECH PVT LTD</h5>
+                <h5>MOZO TECH</h5>
                 <h6>
                 
                   Dubai<br /> United Arab Emirates
@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="flex footer__call">
               <CallIcon id="footer__icon" />
               <p>
-                +97 154 542 3683   
+                00971545423683   
               </p>
             </div>
             <div className="flex footer__mail">
